@@ -10,6 +10,7 @@ function num(x) {
   document.getElementById("minus").classList.remove("pointer-none");
   document.getElementById("divide").classList.remove("pointer-none");
   document.getElementById("multiply").classList.remove("pointer-none");
+  document.getElementById("dot").classList.remove("pointer-none");
 }
 function op(x) {
   if (output.innerHTML == 0) {
@@ -21,6 +22,7 @@ function op(x) {
   document.getElementById("minus").classList.add("pointer-none");
   document.getElementById("divide").classList.add("pointer-none");
   document.getElementById("multiply").classList.add("pointer-none");
+  document.getElementById("dot").classList.add("pointer-none");
 }
 function empty() {
   output.innerHTML = 0;
